@@ -1,6 +1,6 @@
 // 생성자 함수로 다수의 객체 생성해 보기
 
-// 일반 함수
+// 일반함수(관례로 소문자 시작)
 let myFunction = function(){
     console.log("일반 함수");
 }
@@ -12,9 +12,11 @@ let MyObject = function(name, age){
 }
 
 myFunction();
+MyObject();
+
 
 let o1 = new MyObject('둘리', 10);
 let o2 = new MyObject('마이콜', 20);
 
-console.log(o1);
 console.log(o2);
+console.log(o1)
